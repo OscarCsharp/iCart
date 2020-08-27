@@ -1,0 +1,89 @@
+@{
+    ViewData["Title"] = "Contact Page";
+}
+
+
+<style>
+
+
+
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+</style>
+
+<div class="container">
+  <div style="text-align:center">
+    <h5>Leave us a message:</h5>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="/lib/img/a.jpg" style="width:100% ">
+    </div>
+    <div class="column">
+       <form>
+  <div class="form-row">
+    <div class="col-md-4 mb-3">
+      <label for="validationServer01">First Name</label>
+      <input type="text" class="form-control" id="validationServer01" placeholder="First Name"  required>
+    </div>
+
+    <div class="col-md-4 mb-3">
+      <label for="validationServer02">Last Name</label>
+      <input type="text" class="form-control " id="validationServer02" placeholder="Last Name"  required>
+    </div>
+	
+	<div class="col-md-4 mb-3">
+      <label for="validationServer03">Subject</label>
+      <input type="text" class="form-control " id="validationServer03" placeholder="Subject" required>
+    </div>
+     
+     <div class="col-md-12 mb-3">
+      <label for="validationServer04">Message</label>
+      <textarea class="form-control " id="validationServer0" placeholder="Message" required rows="4"></textarea>
+    </div>
+
+  </div>
+
+  <button class="btn btn-primary" type="submit">Submit form</button>
+</form>
+    </div>
+  </div>
+</div>

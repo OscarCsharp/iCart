@@ -1892,6 +1892,16 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Oscar Shaun Csharp\\Documents\\GitHub\\iCart\\Views\\Cart\\Index.cshtml",
+      "TargetPath": "Views\\Cart\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Oscar Shaun Csharp\\Documents\\GitHub\\iCart\\Views\\Home\\Products.cshtml",
+      "TargetPath": "Views\\Home\\Products.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Oscar Shaun Csharp\\Documents\\GitHub\\iCart\\Views\\Shared\\_CookieConsentPartial.cshtml",
       "TargetPath": "Views\\Shared\\_CookieConsentPartial.cshtml",
       "FileKind": "mvc"
@@ -1907,8 +1917,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Oscar Shaun Csharp\\Documents\\GitHub\\iCart\\Views\\Home\\Contact.cshtml",
+      "TargetPath": "Views\\Home\\Contact.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Oscar Shaun Csharp\\Documents\\GitHub\\iCart\\Views\\Home\\About.cshtml",
       "TargetPath": "Views\\Home\\About.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Oscar Shaun Csharp\\Documents\\GitHub\\iCart\\Views\\Product\\Index.cshtml",
+      "TargetPath": "Views\\Product\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -1919,6 +1939,11 @@
     {
       "FilePath": "c:\\Users\\Oscar Shaun Csharp\\Documents\\GitHub\\iCart\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Oscar Shaun Csharp\\Documents\\GitHub\\iCart\\Views\\Home\\Cart.cshtml",
+      "TargetPath": "Views\\Home\\Cart.cshtml",
       "FileKind": "mvc"
     },
     {
