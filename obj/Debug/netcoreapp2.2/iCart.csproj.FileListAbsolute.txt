@@ -32,8 +32,6 @@ C:\Users\Oscar Shaun Csharp\Documents\GitHub\iCart\obj\Debug\netcoreapp2.2\iCart
 C:\Users\Oscar Shaun Csharp\Documents\GitHub\iCart\obj\Debug\netcoreapp2.2\iCart.pdb
 C:\Users\Oscar Shaun Csharp\Documents\GitHub\iCart\obj\Debug\netcoreapp2.2\iCart.csproj.CopyComplete
 C:\Users\Oscar Shaun Csharp\Documents\GitHub\iCart\obj\Debug\netcoreapp2.2\Razor\Views\Home\About.g.cshtml.cs
-C:\Users\Oscar Shaun Csharp\Documents\GitHub\iCart\obj\Debug\netcoreapp2.2\Razor\Views\Home\Cart.g.cshtml.cs
 C:\Users\Oscar Shaun Csharp\Documents\GitHub\iCart\obj\Debug\netcoreapp2.2\Razor\Views\Home\Contact.g.cshtml.cs
-C:\Users\Oscar Shaun Csharp\Documents\GitHub\iCart\obj\Debug\netcoreapp2.2\Razor\Views\Home\Products.g.cshtml.cs
 C:\Users\Oscar Shaun Csharp\Documents\GitHub\iCart\obj\Debug\netcoreapp2.2\Razor\Views\Product\Index.g.cshtml.cs
 C:\Users\Oscar Shaun Csharp\Documents\GitHub\iCart\obj\Debug\netcoreapp2.2\Razor\Views\Cart\Index.g.cshtml.cs

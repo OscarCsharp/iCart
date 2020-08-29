@@ -2,26 +2,22 @@
     ViewData["Title"] = "Product Page";
 }
 
+    <div class="card-deck mb-6 text-center">
+         @foreach (var product in ViewBag.products){
+        <div class="card mb-2 box-shadow">
+          <div class="card-header">
+            <h4 class="my-0 font-weight-normal">@product.Name</h4>
+          </div>
+          <div class="card-body">
+            
+            <ul class="list-unstyled mt-5 mb-4">
+                <img src="~/images/@product.Photo" width="100" /> 
+                 <h1 class="card-title pricing-card-title">R @product.Price </h1>
+            </ul>
+            <a class="btn btn-lg btn-block btn-primary" role="button" asp-controller="cart" asp-action="buy" asp-route-id="@product.Id" >Add To Cart</a>
+          </div>           
+        </div>
+         }
+    </div>
+     
 
-    <h3>Products List</h3>
-    <table cellpadding="2" cellspacing="2" border="1">
-        <tr>
-            <th>Id</th>
-            <th>Name</th>
-            <th>Photo</th>
-            <th>Price</th>
-            <th>Buy</th>
-        </tr>
-        @foreach (var product in ViewBag.products)
-        {
-            <tr>
-                <td>@product.Id</td>
-                <td>@product.Name</td>
-                <td><img src="~/images/@product.Photo" width="60" /> </td>
-                <td>@product.Price</td>
-                <td align="center">
-                    <a asp-controller="cart" asp-action="buy" asp-route-id="@product.Id">Buy Now</a>
-                </td>
-            </tr>
-        }
-    </table>

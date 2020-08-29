@@ -14,24 +14,45 @@ namespace iCart.Models
                 new Product
                 {
                     Id = 001,
-                    Name = "Name 1",
-                    Price = 5,
-                    Photo = "thumb1.gif"
+                    Name = "Soft Drink",
+                    Price = 20,
+                    Photo = "colddrink.png"
                 },
                 new Product
                 {
                     Id = 002,
-                    Name = "Name 2",
-                    Price = 2,
-                    Photo = "thumb2.gif"
+                    Name = "Pizza",
+                    Price = 120,
+                    Photo = "pizza.png"
                 },
                 new Product
                 {
                     Id = 003,
-                    Name = "Name 3",
-                    Price = 6,
-                    Photo = "thumb3.gif"
-                }
+                    Name = "Meat",
+                    Price = 250,
+                    Photo = "meat.jpg"
+                },
+                /*new Product
+                {
+                    Id = 004,
+                    Name = "Burger",
+                    Price = 50,
+                    Photo = "burger.jpg"
+                },
+                new Product
+                {
+                    Id = 005,
+                    Name = "Alcholo 6 Pack",
+                    Price = 250,
+                    Photo = "alcohol.png"
+                },
+                new Product
+                {
+                    Id = 003,
+                    Name = "Vegies",
+                    Price = 20,
+                    Photo = "veg.png"
+                }*/
             };
         }
 

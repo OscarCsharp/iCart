@@ -1897,11 +1897,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Oscar Shaun Csharp\\Documents\\GitHub\\iCart\\Views\\Home\\Products.cshtml",
-      "TargetPath": "Views\\Home\\Products.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\Oscar Shaun Csharp\\Documents\\GitHub\\iCart\\Views\\Shared\\_CookieConsentPartial.cshtml",
       "TargetPath": "Views\\Shared\\_CookieConsentPartial.cshtml",
       "FileKind": "mvc"
@@ -1939,11 +1934,6 @@
     {
       "FilePath": "c:\\Users\\Oscar Shaun Csharp\\Documents\\GitHub\\iCart\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Oscar Shaun Csharp\\Documents\\GitHub\\iCart\\Views\\Home\\Cart.cshtml",
-      "TargetPath": "Views\\Home\\Cart.cshtml",
       "FileKind": "mvc"
     },
     {

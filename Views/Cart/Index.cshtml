@@ -3,35 +3,34 @@
 }
 
 
-    <h3>Cart Page</h3>
-    <table cellpadding="2" cellspacing="2" border="1">
+ 
+    <table class="table table-borderless">
         <tr>
-            <th>Option</th>
-            <th>Id</th>
-            <th>Name</th>
-            <th>Photo</th>
-            <th>Price</th>
-            <th>Quantity</th>
-            <th>Sub Total</th>
+            <th scope="col"></th>
+            <th scope="col">Product</th>
+            <th scope="col">Price</th>
+            <th scope="col">Quantity</th>
+            <th scope="col">Sub Total</th>
         </tr>
         @foreach (var item in ViewBag.cart)
         {
             <tr>
-                <td><a asp-controller="cart" asp-action="remove" asp-route-id="@item.Product.Id">Remove</a></td>
-                <td>@item.Product.Id</td>
-                <td>@item.Product.Name</td>
-                <td><img src="~/images/@item.Product.Photo" width="60" /> </td>
-                <td>@item.Product.Price</td>
+                
+                <td><a asp-controller="cart" asp-action="remove" asp-route-id="@item.Product.Id"><i class="fa fa-trash-o  fa-3x text-danger" aria-hidden="true" ></i></a></td>
+                <td><img src="~/images/@item.Product.Photo" width="60" /> <p>@item.Product.Name</p></td>
+                <td>R @item.Product.Price</td>
                 <td>@item.Quantity</td>
-                <td>@(item.Product.Price * item.Quantity)</td>
+                <td>R @(item.Product.Price * item.Quantity)</td>
             </tr>
         }
-        <tr>
-            <td align="right" colspan="6">Sum</td>
+        <tr class="total">
+            <td align="right" colspan="4" >Sum</td>
             <td>
-                @ViewBag.total
+                R  @ViewBag.total
             </td>
         </tr>
     </table>
     <br>
-    <a asp-controller="product" asp-action="index">Continue Shopping</a>
+    <a class="btn btn-lg btn-primary" role="button" asp-controller="product" asp-action="index">Continue Shopping</a>
+    <a class="btn btn-lg btn-success" role="button" asp-controller="product" asp-action="index">Check Out</a>
+     
